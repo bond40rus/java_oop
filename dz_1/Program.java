@@ -4,10 +4,12 @@ import java.sql.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class Program {    
+public class Program  {  
+    
     public static void main(String[] args) {
         
         Person pers1 = new Person("Ivan", 23); // создаем екземляр класа Персон
+        
 
         Parents parent = new Parents(pers1, Status.parent); // устанавливаем  статус для эекземляра Персон 
         Person pers2 = new Person("Vasya", 5);
@@ -23,6 +25,8 @@ public class Program {
         list.add(new Person("Ivan", 23));
         list.add(new Person("Pavel", 30));
         list.add(new Person("Rita", 25));
+        PrinterImpl printer = new PrinterImpl();
+        printer.print("");
 
         System.out.println(Arrays.toString(list.toArray()));
 
