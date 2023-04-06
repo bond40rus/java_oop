@@ -2,11 +2,12 @@ package dz_1;
 /**
  * Person
  */
-public class Person implements ActionPerson {
+public class Person  {
 
     private String fullname;
     private int age;
     //private String status;
+
 
 
     public  Person(String fullname, int age) {
@@ -28,10 +29,9 @@ public class Person implements ActionPerson {
         return "Person name " + fullname + " age " + age +"";
 
     }
+    
 
-    @Override
-    public void addPerson(String fullname, int age) {
-        this.fullname = fullname;
-        this.age = age;
-    }
+
+     
+    
 }

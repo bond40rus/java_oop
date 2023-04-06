@@ -5,13 +5,17 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Program  {  
+
     
     public static void main(String[] args) {
+        ActionPersonIml pers11 = new ActionPersonIml();
+
+
         
-        Person pers1 = new Person("Ivan", 23); // создаем екземляр класа Персон
+        Person pers1 = new Person("Ivan", 23); 
         
 
-        Parents parent = new Parents(pers1, Status.parent); // устанавливаем  статус для эекземляра Персон 
+        Parents parent = new Parents(pers1, Status.parent); 
         Person pers2 = new Person("Vasya", 5);
         Kids kid = new Kids(pers2, Status.kid);
 
@@ -22,11 +26,10 @@ public class Program  {
 
         System.out.println();
         ArrayList<Person> list = new ArrayList<>();
-        list.add(new Person("Ivan", 23));
+        list.add(pers11.addPerson("Ivan", 23));
         list.add(new Person("Pavel", 30));
         list.add(new Person("Rita", 25));
-        PrinterImpl printer = new PrinterImpl();
-        printer.print("");
+    
 
         System.out.println(Arrays.toString(list.toArray()));
 
