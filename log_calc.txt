@@ -1,0 +1,8 @@
+Txt Format
+Sat Apr 15 14:58:16 MSK 2023 sum = ComplexNumbers [x=4.0, y=6.0]
+Sat Apr 15 15:02:42 MSK 2023 sum = ComplexNumbers [x=4.0, y=6.0]
+Sat Apr 15 15:04:36 MSK 2023 sum = ComplexNumbers [x=4.0, y=6.0]
+Sat Apr 15 15:04:48 MSK 2023 sum = ComplexNumbers [x=4.0, y=6.0]
+Sat Apr 15 17:29:12 MSK 2023 sum = ComplexNumbers [x=4.0, y=6.0]
+Sat Apr 15 17:39:25 MSK 2023 sum = ComplexNumbers [x=4.0, y=6.0]
+Sat Apr 15 17:49:23 MSK 2023 sum = ComplexNumbers [x=-1.0, y=-1.0]
